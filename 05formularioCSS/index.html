@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="title">
+            <img src="icon.png" alt="">
+            <span class="title-text">Cadastro de Produtos</span>
+        </header>
+        <main class="content">
+            <p> Informe nos campos a seguir os dados do produto a ser cadastrado:</p>
+            <form action="https://target-api-simples.cyclic.app/generica" method="post">
+                <input type="text" placeholder="Nome do Produto">
+                <input type="number" placeholder="Preço em R$">
+                <hr>
+                <input type="number" placeholder="Quantidade">
+                <select name="categoria" id="" >
+                    <option value="">Selecione a categoria</option>
+                    <option value="frutas">Frutas</option>
+                    <option value="frutas">Verduras</option>
+                    <option value="frutas">Doces</option>
+                    <option value="frutas">Salgados</option>
+                </select>
+                <hr>
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </main>
+    </body>
+</html>

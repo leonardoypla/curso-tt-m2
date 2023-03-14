@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>JS e DOM - Exercícios 1 e 2</h1>
+        <h2>Exercício 1</h2>
+
+        <label for="v1">Valor 1</label>
+        <input type="number" id="v1" /> <br />
+
+        <label for="v2">Valor 2</label>
+        <input type="number" id="v2" /> <br />
+
+        <label for="v3">Valor 3</label>
+        <input type="number" id="v3" /> <br />
+        <br />
+
+        <button onclick="soma()">Somar!</button> <br />
+        <br />
+
+        <div id="resultado1"></div>
+
+        <hr />
+
+        <h2>Exercício 2</h2>
+
+        <label for="v4">Valor 1</label>
+        <input type="number" id="v4" onchange="soma2()" /> <br />
+
+        <label for="v5">Valor 2</label>
+        <input type="number" id="v5" onchange="soma2()" /> <br />
+
+        <label for="v6">Valor 3</label>
+        <input type="number" id="v6" onchange="soma2()" /> <br />
+        <br />
+
+        <div id="resultado2"></div>
+    </div>
+
+    <div>
+        <h1>JS e DOM - Exercícios de Casa</h1>
+        <br />
+        <hr />
+
+        <div id="q1">
+            <h2>Questão 1</h2>
+            <button id="pares" onclick="imprimePares()">Clique Aqui!</button>
+            <p id="rq1"></p>
+        </div>
+        <hr />
+
+        <div id="q2">
+            <h2>Questão 2</h2>
+            <label>Nota 1:</label>
+            <input type="number" onchange="calculaMedia()" id="q2n1" />
+
+            <label>Nota 2:</label>
+            <input type="number" onchange="calculaMedia()" id="q2n2" />
+
+            <label>Nota 3:</label>
+            <input type="number" onchange="calculaMedia()" id="q2n3" />
+
+            <p id="rq2"></p>
+        </div>
+        <hr />
+
+        <div id="q3">
+            <h2>Questão 3</h2>
+            <label>Número 1:</label>
+            <input type="number" onchange="menorNumero()" id="q3n1" />
+
+            <label>Número 2:</label>
+            <input type="number" onchange="menorNumero()" id="q3n2" />
+
+            <p id="rq3"></p>
+        </div>
+        <hr />
+
+        <div id="q4">
+            <h2>Questão 4</h2>
+            <label>Número 1:</label>
+            <input type="number" onchange="maiorNumero()" id="q4n1" />
+
+            <label>Número 2:</label>
+            <input type="number" onchange="maiorNumero()" id="q4n2" />
+
+            <p id="rq4"></p>
+        </div>
+        <hr />
+
+        <div id="q5">
+            <h2>Questão 5 (resultado pelo console.log)</h2>
+        </div>
+        <hr />
+
+        <div id="q6">
+            <h2>Questão 6 (resultado pelo console.log)</h2>
+        </div>
+        <hr />
+    </div>
+</body>
+
+</html>
