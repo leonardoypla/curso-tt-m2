@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #012043;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header {
+    width: 100%;
+    min-height: 20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+p{
+    padding: 0;
+    margin: 0px 0px 10px 0px;
+    font-size: 24px;
+}
+
+.banner{
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;
+}
+
+.containerBusca{
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 10px;
+    background-color: #D34646;
+    margin: 30px 600px;
+    padding: 20px;
+
+}
+
+input{
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 24px;
+    padding: 5px 110px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.imgPokemon{
+}
+
+.bordaPokemon{
+    border-radius: 5px 5px 5px 30px;
+    border: solid rgb(255, 255, 255) 5px;
+    background-color: rgb(201, 198, 198);
+    
+}
+
+.containerPokemon{
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 10px;
+    background-color: #D34646;
+    margin: 30px 600px;
+    padding: 20px;
+}
+
+#nomePokemon{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+}

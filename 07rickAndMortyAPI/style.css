@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+
+header {
+    background-color: #464545;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+
+.containerBusca{
+    border: solid rgb(10, 10, 10) 2px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 30px 600px;
+    padding: 20px;
+
+}
+
+input{
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 24px;
+    padding: 5px 110px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+    border: solid rgb(10, 10, 10) 2px;
+
+}
+
+.containerPersonagem{
+    border: solid rgb(10, 10, 10) 2px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 30px 600px;
+    padding: 20px;
+}
+
+#nomePersonagem{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+}
