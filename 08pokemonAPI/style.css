@@ -1,79 +1,104 @@
 body{
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
     background-color: #012043;
-    padding: 0;
-    margin: 0;
     color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
-header {
-    width: 100%;
-    min-height: 20vh;
-    display: grid;
-    justify-content: center;
-    align-items: center; 
-    
-}
-
-p{
-    padding: 0;
-    margin: 0px 0px 10px 0px;
-    font-size: 24px;
-}
-
-.banner{
-    margin-top: 50px;
-    width: 400px;
-    height: 200px;
-}
-
-.containerBusca{
-    border: solid rgb(255, 255, 255) 2px;
-    border-radius: 10px;
-    background-color: #D34646;
-    margin: 30px 600px;
+header{
+    display: block;
+    height: 25vh;
     padding: 20px;
+    text-align: center;
+}
 
+#logo{
+    height: 100%;
+}
+
+main{
+    padding-top: 20px;
 }
 
 input{
-    font-size: 24px;
+    background-color: #075700;
+    border: solid white 2px;
     border-radius: 10px;
+    color: yellow;
+    font-size: 24px;
+    width: 120px;
+    text-align: center;
 }
 
 button{
-    font-size: 24px;
-    padding: 5px 110px;
-    margin: 20px 0px 0px 0px;
+    margin-top: 7.5px;
+    width: 122px;
+    height: 30px;
+}
+
+.container{
+    background-color: #D34646;
+    width: 250px;
+    padding: 20px;
+    margin: 20px auto;
     border-radius: 10px;
+    border: #ffffff 2px solid;
+    text-align: center;
+}
+
+#led{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: pink;
+    border: white 2px solid;
+}
+
+.container-busca{
+    height: 70px;
+}
+
+.container-info{
+    height: 300px;
 }
 
 .imgPokemon{
-}
-
-.bordaPokemon{
-    border-radius: 5px 5px 5px 30px;
-    border: solid rgb(255, 255, 255) 5px;
-    background-color: rgb(201, 198, 198);
-    
-}
-
-.containerPokemon{
-    border: solid rgb(255, 255, 255) 2px;
+    border: white 2px solid;
     border-radius: 10px;
-    background-color: #D34646;
-    margin: 30px 600px;
-    padding: 20px;
+    background-color: #075700;
+    width: 120px;
+    height: 120px;
 }
 
-#nomePokemon{
-    font-size: 32px;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    padding: 10px 0px 0px 0px;
+#containerNomePokemon{
+    margin-left: 25%;
+}
+
+.nomePokemon{
+    border: white 2px solid;
+    border-radius: 10px;
+    background-color: #075700;
+    color: yellow;
+    font-size: 20px;
+    width: 120px;
+}
+
+.containerTipoPokemon{
+    display: flex;
+    gap: 10px;
+    margin-left: 6.25%;
+}
+
+.tipoPokemon1{
+    border: white 2px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.tipoPokemon2{
+    border: white 2px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100px;
 }
