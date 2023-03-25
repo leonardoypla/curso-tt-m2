@@ -3,7 +3,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #ffffff url(/img/background.jpg) left center/auto fixed;
+    background: url(../img/background.jpg) left center/auto fixed;
     font-family: 'Open Sans', sans-serif;
 }
 

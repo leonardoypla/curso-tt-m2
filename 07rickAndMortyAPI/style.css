@@ -1,7 +1,5 @@
 body{
-    text-align: center;
-    display: grid;
-    align-content: center;
+    text-align: center
 }
 
 header {
@@ -15,7 +13,8 @@ header {
     border: solid rgb(10, 10, 10) 2px;
     border-radius: 10px;
     background-color: gray;
-    margin: 30px 600px;
+    width: 300px;
+    margin: 20px auto;
     padding: 20px;
 
 }
@@ -23,6 +22,7 @@ header {
 input{
     font-size: 24px;
     border-radius: 10px;
+    text-align: center;
 }
 
 button{
@@ -35,6 +35,8 @@ button{
 img{
     border-radius: 10px;
     border: solid rgb(10, 10, 10) 2px;
+    width: 300px;
+    height: 300px;
 
 }
 
@@ -42,7 +44,8 @@ img{
     border: solid rgb(10, 10, 10) 2px;
     border-radius: 10px;
     background-color: gray;
-    margin: 30px 600px;
+    width: 300px;
+    margin: 20px auto;
     padding: 20px;
 }
 
@@ -51,4 +54,27 @@ img{
     color: rgb(0, 0, 0);
     font-weight: 600;
     padding: 10px 0px 0px 0px;
+}
+
+.back{
+    border: solid rgb(10, 10, 10) 2px;
+    border-radius: 10px;
+    background-color: gray;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.back:hover{
+    border: solid rgb(10, 10, 10) 2px;
+    color: white;
+    border-radius: 10px;
+    background-color: #464545;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    text-decoration: none;
 }
