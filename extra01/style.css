@@ -1,0 +1,41 @@
+header, main {
+    padding: 10px 2px;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.exercicio {
+    border: solid black 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.boxModel {
+    padding: 5px;
+    background-color: gray;
+    border: solid blue 2px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.back{
+    padding: 5px;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+.back:hover{
+    padding: 5px;
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Extras</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html" class="back">Retornar ao Portfólio</a> <br> <br>
+        <h1>Exercícios Extras - Alterando CSS pelo JS</h1>
+    </header>
+
+    <main>
+        <div>
+            <p>
+                Sabendo que tudo o que nós podemos fazer em forma de código digitado,
+                também podemos fazer diretamente pelo Javascript.
+                Execute os exercícios abaixo
+            </p>
+
+            <div>
+                <input type="number" name="" id="input_01_ex01">
+                <input type="number" name="" id="input_02_ex01">
+            </div>
+            <button onclick="executarTudo()">Executar tudo!</button>
+        </div>
+
+        <div class="exercicio">
+            <h2>Exercício 01</h2>
+            <p>Crie uma função que soma o valor dos dois inputs e mostre o resultado no boxModel01</p>
+            <ol>
+                <li>Capture, no JS o elemento HTML que você deseja alterar ou pegar valores</li>
+                <li>Guarde ele em uma variável</li>
+                <li>Acesse o atributo .value para pegar o valor digitado</li>
+                <li>Acesse o atributo .innerText para pegar OU alterar o valor nele</li>
+            </ol>
+            <div class="boxModel" id="elResultadoSoma">
+                Altere meu conteúdo para o valor do resultado
+            </div>
+        </div>
+
+        <div class="exercicio">
+            <h2>Exercício 02</h2>
+            <p>Crie uma função que use as funções abaixo</p>
+            <ol>
+                <li>Leia, entenda e utilize a função pegarValorNumerico para pegar o valor dos inputs</li>
+                <li>Crie e utilize uma função que SUBTRAIA dois valores</li>
+                <li>Leia, entenda e utilize a função mostrarResultadoEmUmElemento para pegar o valor dos inputs</li>
+            </ol>
+            <div class="boxModel" id="elResultadoSubtracao">
+                Altere meu conteúdo para o valor do resultado
+            </div>
+        </div>
+
+        <div class="exercicio">
+            <h2>Exercício 03</h2>
+            <p>Crie uma função que use as funções abaixo</p>
+            <ol>
+                <li>Leia, entenda e utilize a função pegarValorNumerico para pegar o valor dos inputs</li>
+                <li>Crie e utilize uma função que MULTIPLIQUE dois valores</li>
+                <li>Leia, entenda e utilize a função mostrarResultadoEmUmElemento para pegar o valor dos inputs</li>
+            </ol>
+            <div class="boxModel" id="elResultadoMultiplicacao">
+                Altere meu conteúdo para o valor do resultado
+            </div>
+        </div>
+
+        <div class="exercicio">
+            <h2>Exercício 04</h2>
+            <p>Crie uma função que use as funções abaixo</p>
+            <ol>
+                <li>Leia, entenda e utilize a função pegarValorNumerico para pegar o valor dos inputs</li>
+                <li>Crie e utilize uma função que DIVIDA dois valores</li>
+                <li>Dentro da função de divisão, altere o background do boxmodel para VERMELHO, caso o segundo valor seja 0</li>
+                <li>Leia, entenda e utilize a função mostrarResultadoEmUmElemento para pegar o valor dos inputs</li>
+            </ol>
+            <p>
+                if(valor == 0) {
+                    <br>
+                    // BLOCO DE CÓDIGO
+                    <br>
+                    return
+                    <br>
+                }
+            </p>
+            <p>Lembrem do SE em algoritmos, SE - ENTAO - FIM SE</p>
+            <p>O "return" é utilizado para finalizar a função! No caso não retornando nenhum valor</p>
+            <p>Poderia ser escolhido fazer "return 0"</p>
+            <div class="boxModel" id="elResultadoDivisao">
+                Altere meu conteúdo para o valor do resultado
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
