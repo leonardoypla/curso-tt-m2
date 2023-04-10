@@ -17,6 +17,16 @@ a{
     transition: 0.5s;
 }
 
+.extras{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.extras-unit{
+    width: 90%
+}
+
 a:hover{
     color: #000000;
     background-color: #ffffff;

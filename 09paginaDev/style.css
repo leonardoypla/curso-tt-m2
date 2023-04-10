@@ -39,8 +39,6 @@ a {
   text-decoration: none;
 }
 
-.icons{
-}
 
 .fa-brands{
     text-align: center;
@@ -50,6 +48,11 @@ a {
     border: solid 1px red;
     border-radius: 50%;
     width: 5%;
+
+}
+
+.fa-brands:hover{
+  background-color: #ff4a57;
 }
 
 .content {
