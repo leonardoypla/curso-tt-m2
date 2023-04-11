@@ -89,11 +89,14 @@ button{
     margin-left: 6.25%;
 }
 
+
 .tipoPokemon1{
     border: white 2px solid;
     border-radius: 10px;
     font-size: 16px;
     width: 100px;
+    color: yellow;
+    background-color: #075700;  
 }
 
 .tipoPokemon2{
@@ -101,6 +104,8 @@ button{
     border-radius: 10px;
     font-size: 16px;
     width: 100px;
+    color: yellow;
+    background-color: #075700;
 }
 
 .back{
