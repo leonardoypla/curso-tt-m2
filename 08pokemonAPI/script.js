@@ -36,4 +36,7 @@ function mostrarDados(personagem){
 
     const containerNomePokemon = document.getElementById("containerNomePokemon")
     containerNomePokemon.innerHTML = `<p class="nomePokemon"> ${personagem.name} </p>`
+
+    const containerTipoPokemon1 = document.getElementById("containerTipoPokemon1")
+    containerTipoPokemon1.innerHTML = `<p class="tipoPokemon1"> ${personagem.types.map((type) => type.type.name)} </p>`
 }
