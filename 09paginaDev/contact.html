@@ -7,7 +7,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleContact.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,9 +21,28 @@
             </nav>
         </header>
 
-        <body>
+        <main>
+                <form action="" method="post">
+                <input type="text" id="input_nome" name="name" placeholder="Digite o seu nome"><br>
+                <input type="text" id="input_email" name="email" placeholder="Digite o seu email"> <br>
+                <input class="msg" type="text" name="text" id="input_mensagem" placeholder="Digite sua mensagem"> <br>
+                <button onclick="clickDoBotao()"> ENVIAR </button>
+
+
+                <div class="form-status">Aqui</div>
+
+                <div class="retorno-api">
+                    <div class="containerRetornos_informaçoes">
+                        <h3> Retorno da API </h3>
+                        <p>Nome:</p>
+                        <p>Email:</p>
+                        <p>Mensagem:</p>
+                    </div>
+                </div>
+
+            </form>
             
-        </body>
+        </main>
         
         <script src="script.js" async defer></script>
     </body>
